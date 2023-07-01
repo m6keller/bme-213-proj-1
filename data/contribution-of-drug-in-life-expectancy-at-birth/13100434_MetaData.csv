@@ -1,0 +1,211 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Contribution of drug poisoning deaths to changes (over 1 and 5 years) in life expectancy at birth, by sex",13100434,,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310043401",1;2;3;4;5;6;7;8,"CURRENT - a cube available to the public and that is current",Occasional,2014-01-01,2015-01-01,4
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,9;10;11,
+2,"Selected causes of death",,
+3,Sex,,
+4,"Change in life expectancy",,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,[11124],1,,,9,
+1,"Newfoundland and Labrador",[10],2,1,,,
+1,"Eastern Regional Health Authority, Newfoundland and Labrador",[1011],3,2,,,
+1,"Central Regional Health Authority, Newfoundland and Labrador",[1012],4,2,,,
+1,"Western Regional Health Authority, Newfoundland and Labrador",[1013],5,2,,,
+1,"Labrador-Grenfell Regional Health Authority, Newfoundland and Labrador",[1014],6,2,,,
+1,"Prince Edward Island",[11],7,1,,,
+1,"Prince Edward Island",[1100],8,7,,,
+1,"Nova Scotia",[12],9,1,,,
+1,"Zone 1 - Western, Nova Scotia",[1201],10,9,,,
+1,"Zone 2 - Northern, Nova Scotia",[1202],11,9,,,
+1,"Zone 3 - Eastern, Nova Scotia",[1203],12,9,,,
+1,"Zone 4 - Central, Nova Scotia",[1204],13,9,,,
+1,"New Brunswick",[13],14,1,,,
+1,"Zone 1 (Moncton area), New Brunswick",[1301],15,14,,,
+1,"Zone 2 (Saint John area), New Brunswick",[1302],16,14,,,
+1,"Zone 3 (Fredericton area), New Brunswick",[1303],17,14,,,
+1,"Zone 4 (Edmundston area), New Brunswick",[1304],18,14,,,
+1,"Zone 5 (Campbellton area), New Brunswick",[1305],19,14,,,
+1,"Zone 6 (Bathurst area), New Brunswick",[1306],20,14,,,
+1,"Zone 7 (Miramichi area), New Brunswick",[1307],21,14,,,
+1,Quebec,[24],22,1,,,
+1,"Région du Bas-Saint-Laurent, Quebec",[2401],23,22,,,
+1,"Région du Saguenay - Lac-Saint-Jean, Quebec",[2402],24,22,,,
+1,"Région de la Capitale-Nationale, Quebec",[2403],25,22,,,
+1,"Région de la Mauricie et du Centre-du-Québec, Quebec",[2404],26,22,,,
+1,"Région de l'Estrie, Quebec",[2405],27,22,,,
+1,"Région de Montréal, Quebec",[2406],28,22,,,
+1,"Région de l'Outaouais, Quebec",[2407],29,22,,,
+1,"Région de l'Abitibi-Témiscamingue, Quebec",[2408],30,22,,,
+1,"Région de la Côte-Nord, Quebec",[2409],31,22,,,
+1,"Région du Nord-du-Québec, Quebec",[2410],32,22,,,
+1,"Région de la Gaspésie - Îles-de-la-Madeleine, Quebec",[2411],33,22,,,
+1,"Région de la Chaudière-Appalaches, Quebec",[2412],34,22,,,
+1,"Région de Laval, Quebec",[2413],35,22,,,
+1,"Région de Lanaudière, Quebec",[2414],36,22,,,
+1,"Région des Laurentides, Quebec",[2415],37,22,,,
+1,"Région de la Montérégie, Quebec",[2416],38,22,,,
+1,"Région du Nunavik, Quebec",[2417],39,22,,,
+1,"Région des Terres-Cries-de-la-Baie-James, Quebec",[2418],40,22,,,
+1,"Ontario by Local Health Integration Network",,41,1,,12,
+1,"Erie St. Clair Health Integration Network, Ontario",[3501],42,41,,,
+1,"South West Health Integration Network, Ontario",[3502],43,41,,,
+1,"Waterloo Wellington Health Integration Network, Ontario",[3503],44,41,,,
+1,"Hamilton Niagara Haldimand Brant Health Integration Network, Ontario",[3504],45,41,,,
+1,"Central West Health Integration Network, Ontario",[3505],46,41,,,
+1,"Mississauga Halton Health Integration Network, Ontario",[3506],47,41,,,
+1,"Toronto Central Health Integration Network, Ontario",[3507],48,41,,,
+1,"Central Health Integration Network, Ontario",[3508],49,41,,,
+1,"Central East Health Integration Network, Ontario",[3509],50,41,,,
+1,"South East Health Integration Network, Ontario",[3510],51,41,,,
+1,"Champlain Health Integration Network, Ontario",[3511],52,41,,,
+1,"North Simcoe Muskoka Health Integration Network, Ontario",[3512],53,41,,,
+1,"North East Health Integration Network, Ontario",[3513],54,41,,,
+1,"North West Health Integration Network, Ontario",[3514],55,41,,,
+1,"Ontario by Health Unit",,56,1,,12,
+1,"District of Algoma Health Unit, Ontario",[3526],57,56,,,
+1,"Brant County Health Unit, Ontario",[3527],58,56,,,
+1,"Durham Regional Health Unit, Ontario",[3530],59,56,,,
+1,"Grey Bruce Health Unit, Ontario",[3533],60,56,,,
+1,"Haldimand-Norfolk Health Unit, Ontario",[3534],61,56,,,
+1,"Haliburton, Kawartha, Pine Ridge District Health Unit, Ontario",[3535],62,56,,,
+1,"Halton Regional Health Unit, Ontario",[3536],63,56,,,
+1,"City of Hamilton Health Unit, Ontario",[3537],64,56,,,
+1,"Hastings and Prince Edward Counties Health Unit, Ontario",[3538],65,56,,,
+1,"Huron County Health Unit, Ontario",[3539],66,56,,,
+1,"Chatham-Kent Health Unit, Ontario",[3540],67,56,,,
+1,"Kingston, Frontenac and Lennox and Addington Health Unit, Ontario",[3541],68,56,,,
+1,"Lambton Health Unit, Ontario",[3542],69,56,,,
+1,"Leeds, Grenville and Lanark District Health Unit, Ontario",[3543],70,56,,,
+1,"Middlesex-London Health Unit, Ontario",[3544],71,56,,,
+1,"Niagara Regional Area Health Unit, Ontario",[3546],72,56,,,
+1,"North Bay Parry Sound District Health Unit, Ontario",[3547],73,56,,,
+1,"Northwestern Health Unit, Ontario",[3549],74,56,,,
+1,"City of Ottawa Health Unit, Ontario",[3551],75,56,,,
+1,"Peel Regional Health Unit, Ontario",[3553],76,56,,,
+1,"Perth District Health Unit, Ontario",[3554],77,56,,,
+1,"Peterborough County-City Health Unit, Ontario",[3555],78,56,,,
+1,"Porcupine Health Unit, Ontario",[3556],79,56,,,
+1,"Renfrew County and District Health Unit, Ontario",[3557],80,56,,,
+1,"Eastern Ontario Health Unit, Ontario",[3558],81,56,,,
+1,"Simcoe Muskoka District Health Unit, Ontario",[3560],82,56,,,
+1,"Sudbury and District Health Unit, Ontario",[3561],83,56,,,
+1,"Thunder Bay District Health Unit, Ontario",[3562],84,56,,,
+1,"Timiskaming Health Unit, Ontario",[3563],85,56,,,
+1,"Waterloo Health Unit, Ontario",[3565],86,56,,,
+1,"Wellington-Dufferin-Guelph Health Unit, Ontario",[3566],87,56,,,
+1,"Windsor-Essex County Health Unit, Ontario",[3568],88,56,,,
+1,"York Regional Health Unit, Ontario",[3570],89,56,,,
+1,"Oxford Elgin St. Thomas Health Unit, Ontario",[3575],90,56,,,
+1,"City of Toronto Health Unit, Ontario",[3595],91,56,,,
+1,Manitoba,[46],92,1,,,
+1,"Winnipeg Regional Health Authority, Manitoba",[4601],93,92,,,
+1,"Prairie Mountain Health, Manitoba",[4602],94,92,,,
+1,"Interlake-Eastern Regional Health Authority, Manitoba",[4603],95,92,,,
+1,"Northern Regional Health Authority, Manitoba",[4604],96,92,,,
+1,"Southern Health, Manitoba",[4605],97,92,,,
+1,Saskatchewan,[47],98,1,,,
+1,"Sun Country Regional Health Authority, Saskatchewan",[4701],99,98,,,
+1,"Five Hills Regional Health Authority, Saskatchewan",[4702],100,98,,,
+1,"Cypress Regional Health Authority, Saskatchewan",[4703],101,98,,,
+1,"Regina Qu'Appelle Regional Health Authority, Saskatchewan",[4704],102,98,,,
+1,"Sunrise Regional Health Authority, Saskatchewan",[4705],103,98,,,
+1,"Saskatoon Regional Health Authority, Saskatchewan",[4706],104,98,,,
+1,"Heartland Regional Health Authority, Saskatchewan",[4707],105,98,,,
+1,"Kelsey Trail Regional Health Authority, Saskatchewan",[4708],106,98,,,
+1,"Prince Albert Parkland Regional Health Authority, Saskatchewan",[4709],107,98,,,
+1,"Prairie North Regional Health Authority, Saskatchewan",[4710],108,98,,,
+1,"Mamawetan/Keewatin/Athabasca, Saskatchewan",[4714],109,98,,13,
+1,Alberta,[48],110,1,,,
+1,"South Zone, Alberta",[4831],111,110,,,
+1,"Calgary Zone, Alberta",[4832],112,110,,,
+1,"Central Zone, Alberta",[4833],113,110,,,
+1,"Edmonton Zone, Alberta",[4834],114,110,,,
+1,"North Zone, Alberta",[4835],115,110,,,
+1,"British Columbia",[59],116,1,,,
+1,"Interior Health Authority, British Columbia",,117,116,,,
+1,"East Kootenay Health Service Delivery Area, British Columbia",[5911],118,117,,,
+1,"Kootenay-Boundary Health Service Delivery Area, British Columbia",[5912],119,117,,,
+1,"Okanagan Health Service Delivery Area, British Columbia",[5913],120,117,,,
+1,"Thompson/Cariboo Health Service Delivery Area, British Columbia",[5914],121,117,,,
+1,"Fraser Health Authority, British Columbia",,122,116,,,
+1,"Fraser East Health Service Delivery Area, British Columbia",[5921],123,122,,,
+1,"Fraser North Health Service Delivery Area, British Columbia",[5922],124,122,,,
+1,"Fraser South Health Service Delivery Area, British Columbia",[5923],125,122,,,
+1,"Vancouver Health Authority, British Columbia",,126,116,,,
+1,"Richmond Health Service Delivery Area, British Columbia",[5931],127,126,,,
+1,"Vancouver Health Service Delivery Area, British Columbia",[5932],128,126,,,
+1,"North Shore/Coast Garibaldi Health Service Delivery Area, British Columbia",[5933],129,126,,,
+1,"Vancouver Island Health Authority, British Columbia",,130,116,,,
+1,"South Vancouver Island Health Service Delivery Area, British Columbia",[5941],131,130,,,
+1,"Central Vancouver Island Health Service Delivery Area, British Columbia",[5942],132,130,,,
+1,"North Vancouver Island Health Service Delivery Area, British Columbia",[5943],133,130,,,
+1,"Northern Health Authority, British Columbia",,134,116,,,
+1,"Northwest Health Service Delivery Area, British Columbia",[5951],135,134,,,
+1,"Northern Interior Health Service Delivery Area, British Columbia",[5952],136,134,,,
+1,"Northeast Health Service Delivery Area, British Columbia",[5953],137,134,,,
+1,Yukon,[60],138,1,,9,
+1,Yukon,[6001],139,138,,9,
+1,"Northwest Territories",[61],140,1,,,
+1,"Northwest Territories",[6101],141,140,,,
+1,Nunavut,[62],142,1,,,
+1,Nunavut,[6201],143,142,,,
+2,"Total, all causes of death",[A00-Y89],1,,,,
+2,"Drug overdoses (Inlcuding accidental, intentional or of undetermined intent)","[X40-X44, X60-X64, Y10-Y19]",2,1,,,
+2,"Opioid-involved overdose (excluding amphetamines)","[One of T400-T404, T406 and not T436]",3,2,,14,
+2,"Amphetamine-involved overdose (excluding opioids)","[T436 and none of T400-T404,T406]",4,2,,14,
+2,"Opioid and Amphetamine-involved overdose","[T436 and one of T400-T404, T406]",5,2,,14,
+2,"Other drug overdoses","[None of T400-T404,T406, T436]",6,2,,14,
+3,"Both sexes",,1,,,,
+3,Males,,2,1,,,
+3,Females,,3,1,,,
+4,"Over last one year",,1,,,15;16,
+4,"Over last five years",,2,,,15;16,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3231,"Vital Statistics - Birth Database"
+3233,"Vital Statistics - Death Database"
+3604,"Annual Demographic Estimates: Canada, Provinces and Territories"
+
+"Subject Code","Subject Name"
+13,Health
+
+"Note ID",Note
+1,"Sources: Statistics Canada, Canadian Vital Statistics, Death Database and Demography Division (population estimates)."
+2,"Life expectancy is the number of years a person would be expected to live, starting from birth (for life expectancy at birth) and similarly for other age groups, if the age- and sex-specific mortality rates for a given observation period (such as a calendar year) were held constant over the estimated life span."
+3,"This table uses life expectancy calculations based on three consecutive years of death data and population estimates."
+4,"The method used for decomposition of life expectancy is the Arriaga method. Please find the methodology here in Arriaga, E. (1984). Measuring and explaining the change in life expectancies. Demography, 21(1), pp.83-96 and Arriaga, E. (1989). Changing trends in mortality decline during the last decades. In Ruzicka, L., Wunsch, G., Kane, P. International Studies in Demography (pp.105-129). Oxford, England: Claredon Press."
+5,"Elements from the abridged life table are used in the decomposition of life expectancy. Abridged life tables are calculated by 5-year age groups and sex. Life expectancy is calculated according the methodology described in <a href=""http://www5.statcan.gc.ca/olc-cel/olc.action?ObjId=84-538-X&ObjType=2&lang=en&limit=0"">Methods for Constructing Life Tables for Canada, Provinces and Territories, catalogue no. 84-538</a>."
+6,"The following standard symbols are used in this Statistics Canada table: (..) for figures not available for a specific reference period, (...) for figures not applicable and (x) for figures suppressed to meet the confidentiality requirements of the Statistics Act."
+7,"Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. As a result, there may have been fewer deaths captured by the time of the release. The 2017 data are therefore considered preliminary."
+8,"Numbers may not add to totals due to rounding."
+9,"Data on deaths that occurred in Yukon or to residents of Yukon in other provinces or territories are not available for 2017. Therefore, life expectancy and the decomposition of life expectancy have not been calculated for Yukon for the 2015/2017 reference period. Data for Yukon in 2017 was imputed using data from Yukon 2016 for the purpose of calculating Life expectancy and the decomposition of life expectancy for Canada in 2015/2017."
+10,"Changes in life expectancy data presented in this table are tabulated by place of residence."
+11,"Health regions are administrative areas defined by provincial ministries of health according to provincial legislation. The health regions presented in this table are based on boundaries and names in effect as of December 2018. For complete Canadian coverage, each northern territory represents a health region."
+12,"In Ontario, Public Health Units (PHU) administer health promotion and disease prevention programs. Local Health Integration Networks (LHIN) are responsible for planning, funding and administering health care programs and services across the province. Data are provided for both PHUs and LHINs."
+13,"To avoid data suppression, northern regions in Saskatchewan have been grouped with neighbouring regions, as follows: Athabasca Health Authority (4713) is combined with Mamawetan Churchill River Regional Health Authority (4711) and Keewatin Yatthé Regional Health Authority (4712) and referred to as Mamawetan/Keewatin/Athabasca (4714)."
+14,"Drug codes (T codes from the World Health Organization International Statistical Classification of Diseases and Related Health Problems, Tenth Revision, ICD-10) are available in the multiple cause of death database, and were only considered when the underlying cause of death was within one of the drug poisoning categories (accidental drug poisoning: X40-X44, suicide by drug poisoning: X60-X64, or drug poisoning of undetermined intent: Y10-Y14)."
+15,"Data for the changes in life expectancy over the last one year compares the three year reference period (2015/2017) to the three year period immediately prior (2014/2016). Data for the changes in life expectancy over the last five years compares the three year reference period (2015/2017) to the three year period five years prior (2010/2012), and for changes in life expectancy over the last ten years compares the three year reference period (2015/2017) to the three year period ten years prior (2005/2007)."
+16,"Life expectancy estimates in this table may differ from those found in similar data published by Demography (table 13-10-0114), as the data here have been taken from abridged life tables rather than complete life tables. Abridged life tables and complete life tables are built using different methodologies."
+
+"Correction ID","Correction Date","Correction Note"
+
+
